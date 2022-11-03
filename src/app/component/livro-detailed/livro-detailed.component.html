@@ -1,0 +1,7 @@
+<div *ngFor="let livro of listaLivros">
+  <div *ngIf="livro.ISSN===livro_ISSN">
+    <h1>{{livro.Titulo}}</h1>
+    <h2>{{livro.Autor}}</h2>
+    <h3>{{livro.ISSN}}</h3>
+  </div>
+</div>
